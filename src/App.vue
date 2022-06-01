@@ -5,6 +5,9 @@
 
 <script setup>
 import BaseHeader from '@/components/BaseHeader.vue'
+import { useRouter } from 'vue-router'
+const router = useRouter()
+router.push({ name: 'login' })
 </script>
 
 <style lang="scss">
